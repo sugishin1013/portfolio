@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-text: #333;
+  --main-bg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text: #fff;
+    --main-bg: #000;
+  }
+}
+
+body {
+  font-size: clamp(0.875rem, 2vw + 1rem, 1.5rem);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text);
+  background-color: var(--main-bg);
+}
