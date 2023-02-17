@@ -24,10 +24,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/roboto@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.npmjs.org/@fontsource/roboto/-/roboto-4.5.8.tgz"
-  integrity sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==
+"@fontsource/noto-sans-sora-sompeng@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-sora-sompeng/-/noto-sans-sora-sompeng-4.5.12.tgz#3bc2fe63f2d1bf52e5b597b7f5570544ded3a5dc"
+  integrity sha512-dMbKwFYJcA8mVZQ7WrOkAfCA0Kk5Wo3dj0ElHE0/taZ9fk/OfgcRjHyUqNjG0lFzPFGfVxvri0iFcjJ0Y3zCww==
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"

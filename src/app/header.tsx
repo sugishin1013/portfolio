@@ -2,7 +2,7 @@ import Nav from './nav'
 
 const header = () => {
   return (
-    <header className='fixed top-0 w-full bg-white dark:bg-black antialiased lg:pr-16 pr-6 flex flex-wrap items-center lg:py-0 py-2 header'>
+    <header className='fixed top-0 w-full bg-white dark:bg-slate-700 antialiased lg:p-2 p-4 flex flex-wrap items-center  header'>
       <div className='flex-1 flex justify-between items-center' />
       <label htmlFor='menu-toggle' className='pointer-cursor lg:hidden block'>
         <svg

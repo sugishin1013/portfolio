@@ -11,7 +11,7 @@
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'"
   },
   "dependencies": {
-    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/noto-sans-sora-sompeng": "^4.5.12",
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",
