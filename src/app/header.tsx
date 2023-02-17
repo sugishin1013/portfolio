@@ -1,13 +1,12 @@
-import './header.scss'
 import Nav from './nav'
 
 const header = () => {
   return (
-    <header className='antialiased lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2'>
+    <header className='fixed top-0 w-full bg-white dark:bg-black antialiased lg:pr-16 pr-6 flex flex-wrap items-center lg:py-0 py-2 header'>
       <div className='flex-1 flex justify-between items-center' />
       <label htmlFor='menu-toggle' className='pointer-cursor lg:hidden block'>
         <svg
-          className='fill-current text-gray-900'
+          className='fill-current'
           xmlns='http://www.w3.org/2000/svg'
           width='20'
           height='20'

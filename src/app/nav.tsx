@@ -1,38 +1,40 @@
+import Link from 'next/link'
+
 const nav = () => {
   return (
     <nav>
-      <ul className='lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0'>
+      <ul className='lg:flex items-center justify-between text-base pt-4 lg:pt-0 text-gray-600 dark:text-white '>
         <li>
-          <a
-            className='lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400'
-            href='#'
+          <Link
+            href='/'
+            className='lg:p-4 p-3 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
           >
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            className='lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400'
-            href='#'
+          <Link
+            href='/profile'
+            className='lg:p-4 p-3 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
           >
-            About
-          </a>
+            Profile
+          </Link>
         </li>
         <li>
-          <a
-            className='lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400'
-            href='#'
+          <Link
+            href='/history'
+            className='lg:p-4 p-3 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
           >
-            Documentation
-          </a>
+            History
+          </Link>
         </li>
         <li>
-          <a
-            className='lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2'
-            href='#'
+          <Link
+            href='/skill'
+            className='lg:p-4 p-3 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
           >
-            Support
-          </a>
+            Skill
+          </Link>
         </li>
       </ul>
     </nav>
