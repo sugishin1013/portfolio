@@ -1,7 +1,4 @@
 'use client'
-import NextIcon from './nextIcon'
-import ReactIcon from './reactIcon'
-import TailwindIcon from './tailwindIcon'
 
 export default function Home() {
   return (
@@ -17,17 +14,6 @@ export default function Home() {
             line-height: 0.5;
           }
         `}</style>
-        <ul className='flex justify-center items-center w-full mt-10'>
-          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 mr-4'>
-            <ReactIcon />
-          </li>
-          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 mr-4'>
-            <NextIcon />
-          </li>
-          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 mr-4'>
-            <TailwindIcon />
-          </li>
-        </ul>
       </div>
     </main>
   )

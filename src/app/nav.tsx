@@ -36,6 +36,14 @@ const nav = () => {
             Skill
           </Link>
         </li>
+        <li>
+          <Link
+            href='/about'
+            className='lg:p-4 p-3 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
+          >
+            About
+          </Link>
+        </li>
       </ul>
     </nav>
   )
