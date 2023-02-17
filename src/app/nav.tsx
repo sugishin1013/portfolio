@@ -3,7 +3,7 @@ import Link from 'next/link'
 const nav = () => {
   return (
     <nav>
-      <ul className='lg:flex items-center justify-between text-base pt-4 lg:pt-0 text-gray-600 dark:text-white '>
+      <ul className='lg:flex items-center justify-between text-base pt-4 lg:pt-0 text-gray-800 dark:text-white '>
         <li>
           <Link
             href='/'

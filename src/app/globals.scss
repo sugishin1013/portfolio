@@ -23,3 +23,22 @@ body {
 #menu-toggle:checked + #menu {
   display: block;
 }
+
+svg.icon {
+  fill: var(--main-text);
+  stroke: var(--main-text);
+}
+
+svg.icon2 {
+  fill: var(--main-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  svg.icon {
+    fill: var(--main-text);
+    stroke: var(--main-text);
+  }
+  svg.icon2 {
+    fill: var(--main-text);
+  }
+}

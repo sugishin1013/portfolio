@@ -9,7 +9,7 @@ const footer = () => {
         <Link
           href='https://github.com/sugishin1013'
           target='_blank'
-          className='lg:p-4 py-3 px-3 block bg-white'
+          className='lg:p-4 py-3 px-3 block'
         >
           <GithubIcon />
         </Link>
