@@ -20,7 +20,7 @@ body {
   background-color: var(--main-bg);
 }
 
-#menu-toggle:checked + #menu {
+#menu-toggle.open + #menu {
   display: block;
 }
 

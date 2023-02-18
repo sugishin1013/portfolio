@@ -1,6 +1,10 @@
+'use client'
+import { useAtom } from 'jotai'
+import { menuAtom } from './atom'
 import Nav from './nav'
 
 const Header = () => {
+  const [menu, setMenu] = useAtom(menuAtom)
   return (
     <header className='fixed top-0 w-full bg-white dark:bg-slate-700 antialiased lg:p-2 p-4 flex flex-wrap items-center  header'>
       <div className='flex-1 flex justify-between items-center' />
@@ -15,7 +19,12 @@ const Header = () => {
           <path d='M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z'></path>
         </svg>
       </label>
-      <input className='hidden' type='checkbox' id='menu-toggle' />
+      <input
+        className={'hidden ' + (menu ? 'open' : '')}
+        type='checkbox'
+        id='menu-toggle'
+        onClick={() => setMenu(!menu)}
+      />
       <div className='hidden lg:flex lg:items-center lg:w-auto w-full' id='menu'>
         <Nav />
       </div>
