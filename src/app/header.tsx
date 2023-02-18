@@ -1,6 +1,6 @@
 import Nav from './nav'
 
-const header = () => {
+const Header = () => {
   return (
     <header className='fixed top-0 w-full bg-white dark:bg-slate-700 antialiased lg:p-2 p-4 flex flex-wrap items-center  header'>
       <div className='flex-1 flex justify-between items-center' />
@@ -12,7 +12,6 @@ const header = () => {
           height='20'
           viewBox='0 0 20 20'
         >
-          <title>menu</title>
           <path d='M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z'></path>
         </svg>
       </label>
@@ -24,4 +23,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

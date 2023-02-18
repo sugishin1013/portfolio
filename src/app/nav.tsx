@@ -15,18 +15,18 @@ const nav = () => {
         </li>
         <li>
           <Link
-            href='/profile'
+            href='/about'
             className='lg:p-4 p-6 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
           >
-            Profile
+            About
           </Link>
         </li>
         <li>
           <Link
-            href='/history'
+            href='/profile'
             className='lg:p-4 p-6 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
           >
-            History
+            Profile
           </Link>
         </li>
         <li>
@@ -39,10 +39,10 @@ const nav = () => {
         </li>
         <li>
           <Link
-            href='/about'
+            href='/works'
             className='lg:p-4 p-6 block border-b-2 border-transparent hover:border-gray-600 dark:hover:border-white transition-all'
           >
-            About
+            Works
           </Link>
         </li>
         <li>

@@ -14,16 +14,16 @@ export default function About() {
           今後も新しいことを学習しつつ、このサイトで色々試して追加していきます。
         </p>
         <ul className='flex justify-center items-center w-full'>
-          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 mx-4'>
+          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 m-4'>
             <ReactIcon />
           </li>
-          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 mx-4'>
+          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 m-4'>
             <NextIcon />
           </li>
-          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 mx-4'>
+          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 m-4'>
             <TypeScriptIcon />
           </li>
-          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 mx-4'>
+          <li className='lg:w-20 lg:h-20 w-10 h-10 lg:mr-10 m-4'>
             <TailwindIcon />
           </li>
         </ul>
