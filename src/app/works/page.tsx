@@ -8,7 +8,7 @@ export default function Works() {
         <h2 className='lg:text-8xl text-4xl text-center text-slate-700 dark:text-white'>Works</h2>
         <div className='lg:flex justify-between'>
           <Link
-            href='https://github.com/sugishin1013/openAI'
+            href='https://github.com/sugishin1013/open-ai'
             target='_blank'
             className='flex bg-slate-700 dark:bg-white shadow-lg rounded-lg my-10 w-full lg:w-5/12'
           >
@@ -28,7 +28,7 @@ export default function Works() {
                 </div>
                 <p className='text-white dark:text-slate-700'>OpenAI</p>
                 <p className='mt-3 text-white dark:text-slate-700 text-sm'>
-                  OpenAI API を試してみた（UI はチャット風）
+                  OpenAI API を試してみた
                 </p>
               </div>
             </div>
